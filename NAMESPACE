@@ -1,0 +1,10 @@
+exportPattern("^[[:alpha:]]+")
+
+export(read_fasta_f)
+export(kmer)
+
+S3method(print, fasta_sequence)
+S3method(summary, fasta_sequence)
+S3method(summary, kmer)
+
+importFrom(stats, rf)
